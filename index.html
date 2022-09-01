@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simone Lo Giudice</title>
+  </head>
+  <body>
+    <!-- parte iniziale con immagine e un animazione -->
+    <header>
+      <div class="row flex-row align-items-center g-5 py-5">
+        <div id="contImg" class="col-10 col-sm-8 col-lg-6 text-center">
+          <img class="immagine rounded" src="img/fotoProfilo.JPG" alt="" />
+        </div>
+
+        <div class="col-lg-6 text-white text-center">
+          <h2>Simone Lo Giudice</h2>
+          <h3>Web Developer</h3>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="d-flex">
+      <!-- sidebar con contatti -->
+      <div
+        id="sidebar"
+        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark bg-dark"
+        style="width: 280px"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+        >
+          <svg class="bi pe-none me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">I miei social e contatti</span>
+        </a>
+        <hr />
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white" aria-current="page">
+              <i class="bi bi-github"></i> github
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <i class="bi bi-facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <i class="bi bi-linkedin"></i> Linkedin
+            </a>
+          </li>
+          <!-- accordion -->
+
+          <li class="accordion" id="myAccordion">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOne">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  Contatti
+                </button>
+              </h4>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body">
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus suscipit in sapiente perspiciatis praesentium error voluptatum qui iusto eveniet magnam, ea quis at quidem dolore sint rerum blanditiis ut!</p>
+                </div>
+              </div>
+            </div>
+        </li>
+
+          
+        </ul>
+      </div>
+      <!-- fine sidebar -->
+
+      <!-- info personali, istruzione ecc -->
+      <div id="latodestro">
+        <article class="text-center">
+          <h3>Su di me</h3>
+          <p>
+            Mi chiamo Simone Lo giudice ho 24 anni e da poco mi sono iniziato ad
+            affacciare al mondo della programmazione, completando un corso
+            intensivo da Full-stack developer. Sono giovane volonteroso di
+            imparare e di accrescere le mie conoscenze in questo ambito.
+          </p>
+        </article>
+
+        <article>
+          <h3 class="text-center">Le mie competenze</h3>
+          <ul class="lista">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>BOOTSRAP</li>
+            <li>JAVASCRIPT/TYPESCRIPT</li>
+            <li>ANGULAR</li>
+            <li>JAVA</li>
+            <li>JAVASPRING</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 class="text-center">Istruzione</h3>
+          <p>
+            Ho conseguito il diploma di maturità all'istituto Eugenio Montale di
+            Bordighera, nell'ambito delle "Relazioni Internazionali e
+            Marketing", in seguito ho fatto diversi lavori, finchè non ho deciso
+            di iniziare la carriera da sviluppatore web, completando con
+            successo il corso di formazione di Epicode.
+          </p>
+          <img src="img/diploma front-end.svg" alt="" />
+        </article>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="ts/script.ts"></script>
+  </body>
+</html>
