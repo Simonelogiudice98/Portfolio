@@ -1,21 +1,24 @@
 body{
 width: 100vw;
-overflow-x: hidden;
+
 }
 header{
-    width: 100vw;
-    background: rgb(58,92,180);
-    background: linear-gradient(90deg, rgba(58,92,180,1) 0%, rgba(29,146,253,1) 50%, rgba(69,212,252,1) 100%);
+    /* width: 100vw; */
+    background: #3a5cb4;
+    background: linear-gradient(180deg, rgba(58,92,180,1) 0%, rgba(29,146,253,1) 50%, rgba(69,212,252,1) 100%);
+    /* background-position: bottom; */
 }
 
-
-
+.problema{
+    margin:0;
+    padding:0;
+}
 #contImg{
-    margin: auto;
+    padding: auto;
 }
 
 .lista{
-    margin-left:5vw;
+    padding-left:5vw;
 }
 
 #istruzione{
@@ -25,15 +28,16 @@ header{
 
 
 #diploma{
-    width:50vw;
+    
     height:50vh;
-    margin: 6vh 25vw 0vh 25vw;
+   
+    
     
 
 }
 
 #icone{
-    margin-right: 10vw;
+    padding-right: 10vw;
 }
 .icons{
     font-size:1.5rem;
@@ -43,23 +47,42 @@ header{
     
     height:10vh;
     background: rgb(58,92,180);
-    background: linear-gradient(90deg, rgba(58,92,180,1) 0%, rgba(29,146,253,1) 50%, rgba(69,212,252,1) 100%);
+    background: linear-gradient(0deg, rgba(58,92,180,1) 0%, rgba(29,146,253,1) 50%, rgba(69,212,252,1) 100%);
     
 }
 
 .contatti{
-    margin-left:5vw;
+    padding-left:5vw;
     
 }
 
 .testi{
-    margin: 4vh 20vw 6vh 20vw;
+    padding: 4vh 20vw 6vh 20vw;
     line-height: 1.5rem;
 }
 
+/* animazioni */
 
-/* media queries */
+#animazioneUno{
+    
+    width: 400px;
+    height: 400px;
+    background-color:yellow;
+    position: relative;
+}
 
+#angularIcon{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    
+}
+
+
+/* MEDIA QUERIES */
+
+
+/* immagine e testo header */
 @media screen  and (max-width:400px) {
     .immagine{
         width: 35vw;
@@ -109,3 +132,6 @@ header{
         height:30vh;
     }
 }
+
+
+
