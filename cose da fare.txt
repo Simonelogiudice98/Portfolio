@@ -1,0 +1,7 @@
+rendere responsive il testo nell header
+implementare una o due animazioni
+dare la possibilità di scaricare il pdf del curriculum con un link magari 
+pensare a dei colori per lo sfondo e per l header
+mettere una piccola descrizione di me 
+fixare l'accordion per i contatti 
+inserire i link per i social 
