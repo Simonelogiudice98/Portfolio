@@ -15,6 +15,9 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Simone Lo Giudice</title>
   </head>
@@ -28,8 +31,19 @@
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-white text-center">
           <!-- animazione testo -->
-          <h2>Simone Lo Giudice</h2>
-          <h3>Web Developer</h3>
+          <h2 class="t1">
+            <span class="wrapper"></span>
+            <span class="line linea1"></span>
+            <span class="nome">Simone Lo Giudice</span>
+            <span class="line linea2"></span>
+          </h2>
+          
+          <h3 class="t2">
+            <span class="wD">Web </span>
+            <span class="wD">Developer</span>
+
+          </h3>
+
           <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
         </div>
       </div>
@@ -46,7 +60,7 @@
 
     <main>
       <!-- info personali, istruzione ecc -->
-      <div id="info" class="mt-4 mb-3">
+      <div id="info" class="mt-4 mb-3 colorT">
         <article class="text-center">
           <h3>Su di me</h3>
           <p class="testi">
@@ -58,12 +72,12 @@
         </article>
 
         <!-- lista competenze -->
-        <article class="m-0">
-          <h3 class="text-center mt-5">Le mie competenze</h3>
-          <button onclick="muoviAngular()">click</button>
+        <article class="artCompetenze colorT">
+          <h3 class="text-center competenzeT ">Le mie competenze</h3>
+          
 
           <div class="d-flex justify-content-between">
-            <ul class="lista mx-5 my-4">
+            <ul class="lista mx-5 my-5">
               <li>HTML</li>
               <li>CSS</li>
               <li>SASS</li>
@@ -77,6 +91,8 @@
             <!-- animazione -->
             <div id="animazioneUno" >
               <img id="angularIcon" src="img/angular-icon.svg"></img>
+              <img id="htmlIcon" src="img/html-1.svg"></img>
+
             </div>
 
           </div>
@@ -112,7 +128,7 @@
     >
       <p class="text-white contatti">I miei contatti e social:</p>
 
-      <div id="icone">
+      <div id="iconeFooter">
         <ul class="list-unstyled d-flex">
           <li class="ms-3">
             <a class="link-dark text-white icons" href="#"
@@ -138,6 +154,7 @@
       </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
