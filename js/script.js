@@ -2,69 +2,81 @@
 // animazione icone
 
 
-window.addEventListener('load', function(){
-    console.log(muoviAngular());
-    muoviAngular();
-    muoviHtml();
-})
+// window.addEventListener('load', function(){
+//     console.log(muoviAngular());
+//     muoviAngular();
+//     muoviHtml();
+// })
+
+// var myPath = anime.path('svg path')
+ 
+// var path = anime.path('.motion-path-demo path')
+
+// anime({
+//   targets: '.motion-path-demo .el',
+//   translateX: path('x'),
+//   translateY: path('y'),
+//   rotate: path('angle'),
+//   easing: 'linear',
+//   duration: 2000,
+//   loop: true
+// });
 
 
+// var id = null;
 
-
-var id = null;
-
-function muoviAngular(){
-    let direction = true;
-    let iconaAngular = document.getElementById('angularIcon')
-    let pos = 0;
-    clearInterval(id);
-    id = setInterval(frame,10);
-    function frame(){
-        if(pos == 350){
-            direction = false;
-        }else if(pos == 0){
-            direction = true;
-        }
-        if(direction == true){
-            pos++;
+// function muoviAngular(){
+//     let direction = true;
+//     let iconaAngular = document.getElementById('angularIcon')
+//     let pos = 0;
+//     clearInterval(id);
+//     id = setInterval(frame,10);
+//     function frame(){
+//         if(pos == 350){
+//             direction = false;
+//         }else if(pos == 0){
+//             direction = true;
+//         }
+//         if(direction == true){
+//             pos++;
             
-            iconaAngular.style.top = pos + 'px';
-            iconaAngular.style.left = pos + 'px';
+//             iconaAngular.style.top = pos + 'px';
+//             iconaAngular.style.left = pos + 'px';
             
-        }else{
-            pos--;
-            iconaAngular.style.top = pos + 'px';
-            iconaAngular.style.left = pos + 'px';
+//         }else{
+//             pos--;
+//             iconaAngular.style.top = pos + 'px';
+//             iconaAngular.style.left = pos + 'px';
 
-        }
-    }
-}
-function muoviHtml(){
-    let direction2 = true;
-    let iconaHtml = document.getElementById('htmlIcon')
-    let pos = 0;
-    clearInterval(id);
-    id = setInterval(frame,10);
-    function frame(){
-        if(pos == 350){
-            direction2 = false;
-        }else if(pos == 0){
-            direction2 = true;
-        }
-        if(direction2 == true){
-            pos++;
+//         }
+//     }
+// }
+// function muoviHtml(){
+//     let direction2 = true;
+//     let iconaHtml = document.getElementById('htmlIcon')
+//     let pos = 0;
+//     clearInterval(id);
+//     id = setInterval(frame,10);
+//     function frame(){
+//         if(pos == 350){
+//             direction2 = false;
+//         }else if(pos == 0){
+//             direction2 = true;
+//         }
+//         if(direction2 == true){
+//             pos++;
             
-            iconaHtml.style.bottom = pos + 'px';
-            iconaHtml.style.right = pos + 'px';
+//             iconaHtml.style.bottom = pos + 'px';
+//             iconaHtml.style.right = pos + 'px';
             
-        }else{
-            pos--;
-            iconaHtml.style.bottom = pos + 'px';
-            iconaHtml.style.left = pos + 'px';
+//         }else{
+//             pos--;
+//             iconaHtml.style.bottom = pos + 'px';
+//             iconaHtml.style.left = pos + 'px';
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
 
 // ANIMAZIONE LETTERE
@@ -94,7 +106,7 @@ anime.timeline({loop: true})
     opacity: 0,
     duration: 2000,
     easing: "easeOutExpo",
-    delay: 2000
+    delay: 2500
   });
 
 
@@ -111,7 +123,7 @@ anime.timeline({loop: true})
   }).add({
     targets: '.t2',
     opacity: 0,
-    duration: 2000,
+    duration: 2800,
     easing: "easeOutExpo",
     delay: 2000
   });

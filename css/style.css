@@ -8,7 +8,7 @@
 body{
 width: 100%;
 background-color: rgb(173, 219, 240);
-font-family: 'Roboto Slab', serif;
+font-family: 'Poppins', sans-serif;
 }
 header{
     
@@ -140,19 +140,26 @@ top:0
 
 
 /* ANIMAZIONI ICONE */
-
+/* 
 #animazioneUno{
     
     width: 400px;
     height: 400px;
-    background-color:yellow;
-    position: relative;
+    
+   
+} */
+
+
+/* .percorso{
+    
+    top: 50px;
+    left: 50px;
 }
 
 #angularIcon{
     width: 50px;
     height: 50px;
-    position:absolute;
+    
     
 }
 #htmlIcon{
@@ -162,7 +169,7 @@ top:0
     right: 0px;
     position:absolute;
     
-}
+} */
 
 
 /* MEDIA QUERIES */
