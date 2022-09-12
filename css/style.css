@@ -28,17 +28,21 @@ header{
 
 /* sezione competenze */
 
-.artCompetenze{
+.testi{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    line-height: 2;
+}
 
-    margin-top:15vh;
-    margin-bottom:15vh;
-
+.sudime{
+    margin-top: 8vh;
+    padding-bottom:10vh;
 }
 
 .competenzeT{
     margin-top:8vh;
-    margin-bottom:20vh;
-}
+    
+} 
 
 .lista{
     padding-left:5vw;
@@ -49,11 +53,19 @@ header{
 
 /* sezione istruzione */
 
+#info{
+    margin:0;
+}
+
 #istruzione{
     margin-top:20vh;
     
 }
 
+.istruzioneT{
+    padding:10vh 8vw;
+    
+}
 
 #diploma{
     
@@ -84,10 +96,7 @@ header{
     
 }
 
-.testi{
-    padding: 4vh 20vw 6vh 20vw;
-    line-height: 1.5rem;
-}
+
 
 /* ANIMAZIONI */
 
