@@ -213,24 +213,41 @@ top:0
         width: 35vw;
         height:35vh;
     }
+    #diploma{
+        width:70vw;
+    }
+    .linea1{
+        margin-top:15px;
+    }
+   
 }
 @media screen  and (min-width: 401px) and (max-width:580px) {
     .immagine{
         width: 30vw;
         height:30vh;
+        margin-bottom: 10px;
     }
+
+    #diploma{
+        width:80vw;
+    }
+    
 }
 @media screen  and (min-width: 581px) and (max-width:671px) {
     .immagine{
         width: 28vw;
         height:32vh;
+        margin-bottom: 10px;
     }
+   
 }
 @media screen  and (min-width: 671px) and (max-width:767px) {
     .immagine{
         width: 28vw;
         height:32vh;
+        margin-bottom: 10px;
     }
+    
 }
 
 @media screen  and (min-width:768px) and (max-width:1000px) {
