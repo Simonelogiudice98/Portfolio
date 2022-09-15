@@ -17,9 +17,12 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Simone Lo Giudice</title>
   </head>
@@ -69,10 +72,7 @@
     <main>
       <!-- info personali, istruzione ecc -->
 
-      
-
-      
-      <div id="info" class="mt-4 mb-3 colorT row">
+      <div id="info" class="mt-2 colorT row">
         <article class="text-center col-6">
           <h3 class="sudime">Su di me</h3>
           <p class="testi">
@@ -83,39 +83,59 @@
           </p>
         </article>
 
-        <!-- lista competenze -->
-        <article class="artCompetenze colorT col-6">
-          <h3 class="text-center competenzeT">Le mie competenze</h3>
+        <article class="text-center col-6 ">
+          <h3 class="titoloIstruzione">Istruzione</h3>
+          <p class="testi">
+            Ho conseguito il diploma di maturità all'istituto Eugenio Montale di
+            Bordighera, nell'ambito delle "Relazioni Internazionali e
+            Marketing", in seguito ho fatto diversi lavori, finchè non ho deciso
+            di iniziare la carriera da sviluppatore web, completando con
+            successo il corso di formazione di Epicode.
+          </p>
 
-          <div class="text-center">
-            <ul class="lista mx-5 my-5">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SASS</li>
-              <li>BOOTSRAP</li>
-              <li>JAVASCRIPT/TYPESCRIPT</li>
-              <li>ANGULAR</li>
-              <li>JAVA</li>
-              <li>JAVASPRING</li>
-            </ul>
+         
+        </article>
+      </div>
 
-            <!-- animazione -->
-            <!-- <div class="demo-content motion-path-demo">
-              <div class="motion-path">
-                <div class="small square shadow follow-path"></div>
-                <div class="small square el follow-path" style="transform: translateX(213.268px) translateY(16.3439px) rotate(7.49544deg);"></div>
-                <svg width="256" height="112" viewBox="0 0 256 112">
-                  <path fill="none" stroke="currentColor" stroke-width="1" d="M8,56 C8,33.90861 25.90861,16 48,16 C70.09139,16 88,33.90861 88,56 C88,78.09139 105.90861,92 128,92 C150.09139,92 160,72 160,56 C160,40 148,24 128,24 C108,24 96,40 96,56 C96,72 105.90861,92 128,92 C154,93 168,78 168,56 C168,33.90861 185.90861,16 208,16 C230.09139,16 248,33.90861 248,56 C248,78.09139 230.09139,96 208,96 L48,96 C25.90861,96 8,78.09139 8,56 Z"></path>
-                </svg>
-              </div>
-            </div> -->
+      <div class="row mx-0 diplomaRow">
+        <div class="col-12 text-center">
+          <img id="diploma" src="img/diploma front-end.svg" alt="" />
+        </div>
+      </div>
 
-              <!-- <img id="htmlIcon" src="img/html-1.svg"></img> -->
+
+      <h3 class="text-center competenzeT colorT titoloCompetenze">Le mie competenze</h3>
+        <div class="row m-0">
+          <div class="col-6 colorT">
+              <ul class="lista mx-5 my-5">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>BOOTSRAP</li>
+                <li>JAVASCRIPT/TYPESCRIPT</li>
+                <li>ANGULAR</li>
+                <li>JAVA</li>
+                <li>JAVASPRING</li>
+              </ul>
+          </div>
+          <div class="col-6">
+            <!-- <object data="happy.svg" width="300" height="300"> </object> -->
+            <div id="divIcone" class="row pt-3 bg-white pt-4">
+            
+              <div class=" iconaHtml col-4"> <img class="icone"src="img/html-1.svg"></div>
+              <div class=" iconaCss col-4"> <img class="icone" src="img/css-3.svg"></div>
+              <div class=" iconaJavascript col-4"> <img class="icone" src="img/logo-javascript.svg"></div>
+              <div class=" iconaBootstrap col-4 "> <img class="icone" src="img/bootstrap-5-1.svg"></div>
+              <div class=" iconaAngular col-4"> <img class="icone" src="img/angular-icon-1.svg"></div>
+              <div class=" iconaJava col-4"> <img class="icone" src="img/java-icon.svg"></div>
+              
             </div>
           </div>
-        </article>
 
-        <article id="istruzione" class="text-center colorT">
+        
+        </div>
+    
+        <!-- <article id="istruzione" class="text-center colorT">
           <h3>Istruzione</h3>
           <p class="testi text-center istruzioneT">
             Ho conseguito il diploma di maturità all'istituto Eugenio Montale di
@@ -127,7 +147,7 @@
 
           <img id="diploma" src="img/diploma front-end.svg" alt="" />
         </article>
-      </div>
+       -->
     </main>
 
     <!-- wave -->
@@ -148,17 +168,26 @@
       <div id="iconeFooter">
         <ul class="list-unstyled d-flex">
           <li class="ms-3">
-            <a class="link-dark text-white icons" href="https://github.com/Simonelogiudice98" target="_blank"
+            <a
+              class="link-dark text-white icons"
+              href="https://github.com/Simonelogiudice98"
+              target="_blank"
               ><i class="bi bi-github"></i
             ></a>
           </li>
           <li class="ms-3">
-            <a class="link-dark text-white px-3 icons" href="https://www.facebook.com/simone.logiudice.35/" target="_blank"
+            <a
+              class="link-dark text-white px-3 icons"
+              href="https://www.facebook.com/simone.logiudice.35/"
+              target="_blank"
               ><i class="bi bi-facebook"></i
             ></a>
           </li>
           <li class="ms-3">
-            <a class="link-dark text-white icons" href="https://www.linkedin.com/in/simone-lo-giudice-44ba0a246/" target="_blank"
+            <a
+              class="link-dark text-white icons"
+              href="https://www.linkedin.com/in/simone-lo-giudice-44ba0a246/"
+              target="_blank"
               ><i class="bi bi-linkedin"></i
             ></a>
           </li>
